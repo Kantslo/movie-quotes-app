@@ -1,3 +1,9 @@
+import RegistrationModal from "@/components/authentication/registration-modal";
+
 export default function Home() {
-  return <main></main>;
+    return (
+        <main>
+            <RegistrationModal />
+        </main>
+    );
 }
